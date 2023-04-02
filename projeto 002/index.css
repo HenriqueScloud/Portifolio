@@ -3,7 +3,7 @@
 
 
 body{
-    padding: 0px 50px;
+    
     
     color: white;
     background-color: black;
@@ -58,6 +58,7 @@ div h1{
 }
 
 main{
+    padding: 2px 4%;
     margin: 20px 5px;
     text-align: center;
 }
