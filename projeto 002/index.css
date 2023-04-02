@@ -1,6 +1,8 @@
 
 @charset "UTF-8";
-
+:root{
+    --verde:rgb(0, 225, 0);
+}
 
 body{
     
@@ -26,12 +28,12 @@ ul{
 
 }
 
-a{
+ nav a{
     color:white;
     text-decoration: none;
 }
 a:hover{
-    color:green;
+    color:var(--verde);
     
 }
 
@@ -43,7 +45,7 @@ header img{
     min-height: 240px;
 
     border-radius: 50%;
-    border: 5px solid greenyellow;
+    border: 5px solid var(--verde);
 
 
 }
@@ -53,7 +55,7 @@ header{
 }
 
 div h1{
-    color:green
+    color:var(--verde);
 
 }
 
@@ -85,7 +87,7 @@ div.voltar{
     box-shadow: 1px 1px 5px 1px  white;
 
 
-    background-color: greenyellow;
+    background-color: var(--verde);
 }
 a.rodape {
     width: 20px;
@@ -101,6 +103,11 @@ img{
     
 }
 footer  {
+    padding: 5px;
+    border-radius: 10px;
+    width: 99%;
+    background-image: linear-gradient(180deg,black,rgba(58, 58, 58, 0.603));
+    background-position: bottom center;
   display: flex;
   justify-content: center;
     
@@ -114,4 +121,21 @@ footer div {
 a p{
     margin:0%;
     text-align: center;
+}
+
+
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color:white ;
+
+}
+
+footer a:hover{
+    color:var(--verde);
+
+}
+ h3{
+    margin-left: 2%;
+    text-align: left;
 }
