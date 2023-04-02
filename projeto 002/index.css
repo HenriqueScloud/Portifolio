@@ -1,7 +1,7 @@
 
 @charset "UTF-8";
 :root{
-    --laranja:#05d605d8;
+    --laranja:#fff700;
 }
 *{
     margin: 0px;
@@ -37,9 +37,11 @@ ul{
 }
 
 ul li{
+    color: black;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20px ;
-    padding: 10px;
+    border-radius: 10px ;
+    padding: 5px;
     
     margin: 5px 20px ;
 }
@@ -48,13 +50,13 @@ ul li:hover{
 
     
     color:black;
-    transition: 0.5s;
-    border-radius: 20px ;
-    padding: 10px;
+    transition: 0.2s;
+    border-radius: 10px ;
+    padding: 5px;
 
     color: black;
     box-shadow: inset 1px 1px 5px 1px  black;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--laranja);
     margin: 5px 20px ;
 }
 nav{
@@ -75,7 +77,7 @@ nav h1{
  nav a{
     font-size: 1.5em;
     font-family:'Times New Roman', Times, serif;
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 nav a:hover{

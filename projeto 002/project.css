@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root{
-    --laranja:#05d605d8;
+    --laranja:#fff700;
 }
 *{
     margin: 0px;
@@ -123,6 +123,10 @@ main img{
     width: 150px;
     height: 150px;
 }
+section img:hover{
+    box-shadow: 1px 1px 10px 1px var(--laranja);
+
+}
 
 
 
@@ -140,7 +144,7 @@ main img{
 
 a{
     font-size: 1.4em;
-    color:whitesmoke;
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -237,25 +241,27 @@ ul{
 }
 
 ul li{
+    color: black;
+    background-color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20px ;
-    padding: 10px;
+    border-radius: 5px ;
+    padding: 5px;
     
-    margin: 5px 20px ;
+    margin: 10px 20px ;
 }
 
 ul li:hover{
 
     
     color:black;
-    transition: 0.5s;
-    border-radius: 20px ;
-    padding: 10px;
+    transition: 0.2s;
+    border-radius: 5px ;
+    padding: 5px;
 
     color: black;
-    box-shadow: inset 1px 1px 5px 1px  black;
-    background-color: rgb(255, 255, 255);
-    margin: 5px 20px ;
+    box-shadow:  1px 1px 5px 1px  var(--laranja);
+    background-color: var(--laranja);
+    margin: 10px 20px ;
 }
 nav{
     background-image: linear-gradient(180deg,black,rgba(36, 36, 36, 0.79),#5a5a5ae0);
@@ -275,7 +281,7 @@ nav h1{
  nav a{
     font-size: 1.5em;
     font-family:'Times New Roman', Times, serif;
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 nav a:hover{
