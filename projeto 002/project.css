@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root{
-    --laranja:#ff5900;
+    --laranja:#05d605d8;
 }
 *{
     margin: 0px;
@@ -229,7 +229,7 @@ li a{
 ul{
     
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 1px;
