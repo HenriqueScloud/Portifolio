@@ -20,6 +20,7 @@ body{
     background-image: url('cenario-texturizado-de-parede-de-concreto-solido_53876-129493.avif');
     background-repeat: repeat-y;
     background-size: cover;
+    background-attachment: fixed;
 
 
 
@@ -114,6 +115,7 @@ main div{
 
     display: inline-block;
     justify-content: center;
+    text-align: center;
 
     margin: 20px 0px;
 }
@@ -125,6 +127,14 @@ main img{
 }
 section img:hover{
     box-shadow: 1px 1px 10px 1px var(--laranja);
+
+}
+div h1{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
 
 }
 
