@@ -14,11 +14,9 @@ body{
     height: 98vh;
     
     
-    color: white;
-    background-color: black;
-    background-image: url('cenario-texturizado-de-parede-de-concreto-solido_53876-129493.avif');
-    background-repeat: repeat-y;
-    background-size: cover;
+    
+    background: url('cenario-texturizado-de-parede-de-concreto-solido_53876-129493.avif') center center fixed;
+    background-position: cover;
 
 
 
