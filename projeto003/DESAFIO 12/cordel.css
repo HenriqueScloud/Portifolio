@@ -47,7 +47,7 @@ header h1{
  }
 
  header p{
-    padding-bottom: 25px;
+    padding-bottom: 60px;
  }
  header a{
     color: white;
@@ -64,8 +64,8 @@ header h1{
 
 section{
    
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font03);
@@ -103,7 +103,7 @@ section.img p{
     background-color: rgba(0, 0, 0, 0.404);
    display: inline-block;
    padding: 10px;
-   text-shadow: 2px 2px 0px black;
+   text-shadow: 2px 1px 0px black;
 
 }
 
