@@ -229,32 +229,3 @@ a p{
 }
 
 
-footer a{
-
-    text-align: center;
-    text-decoration: none;
-    color:white ;
-    
-    font-size: 1.0em;
-
-}
-
-footer a:hover{
-    margin:auto 5px;
-    font-size: 1.1em;
-    color:var(--laranja);
-    transition: 0.5s;
-        
-  
-
-}
- h3{
-    margin-left: 2%;
-    text-align: left;
-    color: var(--laranja);
-}
-
-
-
-
-
