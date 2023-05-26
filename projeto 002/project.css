@@ -10,8 +10,10 @@
 
 body{
     
-background-color: aqua;
-  
+
+  background: linear-gradient(180deg, black, rgb(0, 40, 80), rgb(0, 128, 255) ) fixed ;
+    background-size: cover;
+    
   
 }
 
@@ -21,8 +23,6 @@ main{
     
     height: 100vh;
 
-    background: linear-gradient(180deg, black, rgb(0, 40, 80), rgb(0, 128, 255) ) fixed ;
-    background-size: cover;
     
     padding: auto 50px ;
     
@@ -52,7 +52,7 @@ section{
     width: 80vw;
     height: 70vh;
 
-    max-width: 2200px;
+    max-width: 1200px;
 }
 
 
@@ -136,11 +136,18 @@ section div.perfil p {
 
 /* CAIXA DE PROJETOS  */
 
-section div.projetos{
-    background-color: red;
+section div.projetos h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 15px;
     
+}
 
-    
+@media screen and (max-width:600px ){
+    section div.projetos h1{
+        font-size: 1em;
+
+    }
 }
 
 
@@ -177,4 +184,35 @@ aside div.linguagens {
     }
 
 
+}
+
+
+/*       PROEJTOS      */
+
+div.projetos{   
+   display: flex;
+   flex-direction: column;
+   
+   
+   
+    height: 100px;
+}
+
+.link{
+    text-align: center ;
+   
+    flex: 1;
+    padding: 10px 20px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-img-proejto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
