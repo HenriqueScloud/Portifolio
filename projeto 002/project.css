@@ -298,24 +298,4 @@ ul li:hover{
     
     color:black;
     transition: 0.2s;
-    border-radius: 5px ;
-    padding: 5px;
-
-    color: black;
-    box-shadow:  1px 1px 5px 1px  var(--laranja);
-    background-color: var(--laranja);
-    margin: 10px 20px ;
-}
-
-
-
-
-
-
-
-
-/* ---------- nav 2 ----------*/ 
-
-
-
-
+  
