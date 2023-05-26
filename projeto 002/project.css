@@ -3,33 +3,6 @@
 
 
 
-/* ---------- nav  1----------*/
-nav{
-
- 
-
-    margin: 0px 0px 0px 0px ;
-    
-
-    max-width: 100% ;
-}
-nav h1{
-    margin-right: 2px; 
-    font-style: italic;
-    font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--laranja);
-    
-
-}
-nav div{
-    margin: auto 8%;
-    display: inline-block;
-    text-align: right;
-    padding: 15px;
-}
-
-
 /* ---------- main 1 ----------*/
 
 
