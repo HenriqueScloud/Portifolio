@@ -1,22 +1,6 @@
 @charset "UTF-8";
 
 
- /* ---------- main ----------*/
-main{
-    margin-top: 50px;
-}
-
-
-main div{
-    min-width: 130px;
-    max-width: 500px;
-
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-
-    margin: 20px 0px;
-}
 main img{
     border: 3px solid var(--laranja);
     width: 100%;
