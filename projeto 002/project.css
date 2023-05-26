@@ -10,7 +10,7 @@
 
 body{
     
-
+background-color: aqua;
   
   
 }
@@ -18,6 +18,9 @@ body{
 /* main */
 
 main{
+    
+    height: 100vh;
+
     background: linear-gradient(180deg, black, rgb(0, 40, 80), rgb(0, 128, 255) ) fixed ;
     background-size: cover;
     
