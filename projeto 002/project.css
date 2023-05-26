@@ -207,25 +207,3 @@ footer  {
     text-align: center;
     padding: 10px;
    
-    border-radius: 10px;
-    
-    height: 100px;
-    background-image: linear-gradient(0deg,black,rgba(36, 36, 36, 0.79),#5a5a5ae0);
-    background-position: bottom center;
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-footer div {
-    
-    margin: 0px 0 px;
-    
-}
-a p{
-    margin:0%;
-    text-align: center;
-}
-
-
