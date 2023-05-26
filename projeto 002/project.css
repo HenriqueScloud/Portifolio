@@ -1,33 +1,6 @@
 @charset "UTF-8";
 
 
-background-attachment: fixed;
-
-
-    width: 100%;
-    height: 450px;
-
-    margin: 0px ;
-    padding-top: 80px;
-
-
-    
-}
-
-header div{
-    min-width: 230px;
-    max-width: 400px;
-    padding: 30px;
-
-    font-family: 'Courier New', Courier, ;
-
-    color: rgb(255, 255, 255);
-    
-
-    text-align: left;
-    margin: 0px 10px;
-}
-
 header>div>p{
    margin-bottom: 10px;
     margin-top: 15px;
