@@ -326,11 +326,3 @@ nav{
     margin-bottom: 0px;
 
 }
-nav h1{
-    margin-right: 2px; 
-   font-style: italic;
-    font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--laranja);
-
-}
