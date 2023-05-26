@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
-
-main img{
-    border: 3px solid var(--laranja);
-    width: 100%;
-    width: 150px;
-    height: 150px;
-}
-section img:hover{
+ction img:hover{
     box-shadow: 1px 1px 10px 1px var(--laranja);
 
 }
