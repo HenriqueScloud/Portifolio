@@ -1,33 +1,6 @@
 @charset "UTF-8";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-a{
-    font-size: 1.4em;
-    color:rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-div.voltar{
-    text-align: center;
-    max-width: 300px;
-    min-width:120px ;
-    margin: auto;
-    border-radius: 50px;
-    box-shadow: 1px 1px 5px 1px  rgb(0, 0, 0);
-
-
     background-color: var(--laranja);
 }
 a.rodape {
